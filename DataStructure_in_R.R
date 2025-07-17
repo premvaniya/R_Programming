@@ -1,4 +1,4 @@
-#datatypes
+#dataStructures in R : R provides a range of built-in structures to store and manipulate data efficiently—each suited for specific types of operations, like statistical analysis, tabular manipulation, or multidimensional calculations.
 
 ##vector datatype
 vector<-c(1,2,3,4,5,6,8)
