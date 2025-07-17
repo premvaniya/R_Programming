@@ -25,3 +25,22 @@ ml$name
 ml$age
 ml$score
 ml$score[3]
+
+
+
+##dataframe
+df <- data.frame(
+  Name = c("Prem", "god", "Dev"),
+  Age = c(21, 22, 23),
+  Score = c(88, 92, 85)
+)
+print(df)
+
+#Arrays
+arr <- array(1:12, dim = c(2, 3, 2))  # 2x3x2 array
+print(arr)
+
+##factors
+status <- factor(c("single", "married", "single", "divorced"))
+print(status)
+factor(status)
