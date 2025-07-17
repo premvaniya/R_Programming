@@ -1,3 +1,14 @@
+/*Control flow is the logic that governs how your R program executes instructions. It allows you to decide what code runs, when, and how often, based on conditions or loops.
+This section demonstrates the main control structures in R:
+- if, else if, and else for decision-making 🧠
+- for, while, and repeat loops for iteration 🔁
+- break and next for controlling loop behavior 🎯
+Mastering control flow helps you build responsive, efficient, and intelligent scripts that react dynamically to data or user input—essential for tasks like data analysis, automation, and algorithmic processing.
+*/
+
+
+
+
 # ----- if statement -----
 x <- 10
 if (x > 5) {
