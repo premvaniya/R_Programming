@@ -39,3 +39,17 @@ char_var <- "Hello, world!"
 mixed_char <- "123ABC!@#"
 print(char_var)              # Output: "Hello, world!"
 print(mixed_char)            # Output: "123ABC!@#"
+
+
+
+# Example value
+val <- "123"
+
+# Type check
+print(typeof(val))          # "character"
+print(is.character(val))    # TRUE
+
+# Type conversion
+converted_val <- as.numeric(val)
+print(converted_val)        # 123
+print(typeof(converted_val))# "double"
