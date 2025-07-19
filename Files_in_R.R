@@ -12,6 +12,11 @@
 #  - `readRDS("file.rds")` – loads a single object
 
 #---
+# Read the CSV file
+student_data <- read.csv("data.csv")
+print(student_data)
+getwd()
+
 
 ### ✍️ Writing Files
 
