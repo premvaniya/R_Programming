@@ -17,6 +17,8 @@ student_data <- read.csv("data.csv")
 print(student_data)
 getwd()
 
+list.files()
+
 
 ### ✍️ Writing Files
 
@@ -28,3 +30,17 @@ getwd()
 #- **R-specific formats**:
 #  - `save(object1, object2, file = "file.RData")`
 #  - `saveRDS(object, "file.rds")`
+# Sample data frame
+student_data <- data.frame(
+  ID = 101:105,
+  Name = c("Aarav", "Diya", "Kabir", "Meera", "Rohan"),
+  Age = c(20, 21, 19, 22, 20),
+  Score = c(88, 92, 76, 85, 90),
+  Passed = c(TRUE, TRUE, FALSE, TRUE, TRUE)
+)
+
+# Write to CSV
+write.csv(student_data, "student_data.csv", row.names = FALSE)
+
+# Print the data frame to console
+print(student_data)
